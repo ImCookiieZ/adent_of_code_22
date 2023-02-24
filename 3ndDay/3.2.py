@@ -1,10 +1,24 @@
 file = open("./input.txt", "r") # Put The numbers here without new line in beginning or end
 input_str = file.read()
+
+# 1, 1 =  0 -> draw
+# 2, 2 =  0 -> draw
+# 3, 3 =  0 -> draw
+# 1, 2 = -1 -> Second
+# 1, 3 = -2 -> First
+# 2, 3 = -1 -> Second
+# 2, 1 =  1 -> First
+# 3, 1 =  2 -> Second
+# 3, 2 =  1 -> First
+
+# First 1, -2
+# Second -1, 2 
+
 # -1 loose 
 #  0 draw 
 #  1 win
 # number = Letter - 'Y'
-# [a,b,c][number % 3]
+# [a,b,C][number % 3]
 
 # Variant 1
 
